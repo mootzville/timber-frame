@@ -1,13 +1,13 @@
 <html ${ meta.lang ? `lang="${meta.lang}"` : '' }>
     <head>
-        ${ meta.charset ? `<meta charset="${meta.charset}"/>` : '' }
+        ${ meta.charset ? `<meta charset="${meta.charset}">` : '' }
         ${ meta.viewport ? `<meta name="viewport" content="${meta.viewport}">` : '' }
         <!-- List of Meta Tags: https://gist.github.com/kevinSuttle/1997924 -->
-        ${ meta.applicationName ? `<meta name="application-name" content="${meta.applicationName}"/>` : '' }
-        ${ meta.description ? `<meta name="description" content="${meta.description}"/>` : '' }
-        ${ meta.keywords ? `<meta name="keywords" content="${meta.keywords}"/>` : '' }
-        ${ meta.author ? `<meta name="author" content="${meta.author}" />` : '' }
-        ${ meta.copyright ? `<meta name="copyright" content="${meta.copyright}" />` : '' }
+        ${ meta['application-name'] ? `<meta name="application-name" content="${meta['application-name']}">` : '' }
+        ${ meta.description ? `<meta name="description" content="${meta.description}">` : '' }
+        ${ meta.keywords ? `<meta name="keywords" content="${meta.keywords}">` : '' }
+        ${ meta.author ? `<meta name="author" content="${meta.author}">` : '' }
+        ${ meta.copyright ? `<meta name="copyright" content="${meta.copyright}">` : '' }
 
         ${ meta.title ? `<title>${meta.title}</title>` : '' }
 

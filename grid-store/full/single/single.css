@@ -1,0 +1,2 @@
+body { grid-template: "main"; }
+main { grid-area: main; }

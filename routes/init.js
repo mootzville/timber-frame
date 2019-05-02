@@ -25,7 +25,7 @@ data = { meta: config.meta, script: script, style: style }
 html = template(html, data)
 
 function init (req, res) {
-    res.send(template(html));
+    res.send(html);
 }
 
 router.get('/', init);

@@ -1,3 +1,5 @@
+console.log('init-client');
+
 // fetch url and return resolver <Promise>
 async function grab (type, url) {
     "use strict";
@@ -42,4 +44,4 @@ function render (url, parent) {
 }
 
 
-render('/index', 'body');
+//render('/index', 'body');

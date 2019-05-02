@@ -4,7 +4,7 @@
         "title": "timber-frame",
         "charset": "utf-8",
         "viewport": "width=device-width, initial-scale=1",
-        "applicationName": "timber-frame",
+        "application-name": "timber-frame",
         "description": "A framework for me, and maybe for you.",
         "keywords": "list, of, relevant, words",
         "author": "mootzville",
