@@ -1,0 +1,11 @@
+body {
+    grid-template:  "head head head head"
+                    "main main main main"
+                    "main main main main"
+                    "foot foot foot foot"
+}
+
+header { grid-area: head }
+main   { grid-area: main }
+/* aside  { grid-area: side } */
+footer { grid-area: foot }

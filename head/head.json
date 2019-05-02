@@ -1,0 +1,22 @@
+{
+    "meta": {
+        "lang": "en-US",
+        "title": "timber-frame",
+        "charset": "utf-8",
+        "viewport": "width=device-width, initial-scale=1",
+        "applicationName": "timber-frame",
+        "description": "A framework for me, and maybe for you.",
+        "keywords": "list, of, relevant, words",
+        "author": "mootzville",
+        "copyright": "copyright"
+    },
+
+    "scripts": [
+        "head/scripts/head.js",
+        "head/scripts/init-client.js"
+    ],
+
+    "styles": [
+        "head/styles/head.css"
+    ]
+}

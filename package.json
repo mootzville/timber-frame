@@ -1,0 +1,16 @@
+{
+  "name": "timber-frame",
+  "version": "0.0.1",
+  "description": "A simple framework for me you might like",
+  "main": "app.js",
+  "dependencies": {
+    "backtick-template": "^0.2.0",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
