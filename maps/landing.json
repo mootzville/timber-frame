@@ -1,0 +1,10 @@
+{
+    "full": "default",
+
+    "partial": {
+        "header": "default",
+        "main": "landing",
+        "aside": "default",
+        "footer": "default"
+    }
+}
